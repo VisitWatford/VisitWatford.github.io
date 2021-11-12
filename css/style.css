@@ -3,7 +3,10 @@
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
-	border-radius: 0px;
+	border-radius: 1px;
+	background: #600f25;
+	box-shadow: inset -20px 20px 26px #520d1f,
+            	    inset 20px -20px 26px #6e112b;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -79,6 +82,7 @@
 	background: #F2F2F2;
 	color: #444444;
 }
+
 @media screen and (max-width: 800px){
 	#menu {position:relative}
 	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
@@ -96,7 +100,7 @@
   position: align-bottom ;
   background: #600f25;
   color: white;
-  padding: 20px;
+  padding: 4px;
   text-align: center;
   grid-row-start: 1;
   grid-row-end: 3;
@@ -417,7 +421,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 85.50vh;
   z-index: 1;
 }
 .slideshow .slideshow-inner {
