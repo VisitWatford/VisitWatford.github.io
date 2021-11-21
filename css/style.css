@@ -3,10 +3,7 @@
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
-	border-radius: 1px;
-	background: #600f25;
-	box-shadow: inset -20px 20px 26px #520d1f,
-            	    inset 20px -20px 26px #6e112b;
+	border-radius: 0px;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -82,7 +79,6 @@
 	background: #F2F2F2;
 	color: #444444;
 }
-
 @media screen and (max-width: 800px){
 	#menu {position:relative}
 	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
@@ -100,7 +96,7 @@
   position: align-bottom ;
   background: #600f25;
   color: white;
-  padding: 4px;
+  padding: 20px;
   text-align: center;
   grid-row-start: 1;
   grid-row-end: 3;
@@ -143,7 +139,7 @@ a {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 20em;
+  height: 15em;
   width: 15em;
   font-size: 1.5em;
   color: white;
@@ -421,7 +417,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 85.50vh;
+  height: 100vh;
   z-index: 1;
 }
 .slideshow .slideshow-inner {
@@ -629,7 +625,7 @@ a {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 10em;
+  height: 15em;
   width: 15em;
   font-size: 1.5em;
   color: white;
@@ -797,15 +793,288 @@ h3 {
   letter-spacing: 4px;
 }
 
-.banner h1, .banner h3, {
+/* Travel Information Banner */
+.banner-Travel-Information h1, .banner-Travel-Information h3, {
   margin: 0;
   text-shadow: 2px 2px 6px #000;
   text-align: center;
 }
 
-.banner {
+.banner-Travel-Information {
   color: white;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/banner-flowers.jpg') top left/cover no-repeat;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Visitor Information Banner */
+.banner-Visitor-Information h1, .banner-Visitor-Information h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Visitor-Information {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Things to do Banner */
+.banner-Things-to-do h1, .banner-Things-to-do h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Things-to-do {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Arts, Culture and Heritage Banner */
+.banner-Arts-Culture-and-Heritage h1, .banner-Arts-Culture-and-Heritage h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Arts-Culture-and-Heritage {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Family Fun Banner */
+.banner-Family-Fun h1, .banner-Family-Fun h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Family-Fun {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Shopping and Markets Banner */
+.banner-Shopping-and-Markets h1, .banner-Shopping-and-Markets h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Shopping-and-Markets {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Parks and Open Spaces Banner */
+.banner-Parks-and-Open-Spaces h1, .banner-Parks-and-Open-Spaces h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Parks-and-Open-Spaces {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sport & Recreation Banner */
+.banner-Sport-and-Recreation h1, .banner-Sport-and-Recreation h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Sport-and-Recreation {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* What’s on Banner */
+.banner-What’s-on h1, .banner-What’s-on h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-What’s-on {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Food and Drink Banner */
+.banner-Food-and-Drink h1, .banner-Food-and-Drink h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Food-and-Drink {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bars Banner */
+.banner-Bars h1, .banner-Bars h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Bars {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cafes & Coffee shops Banner */
+.banner-Cafes-and-Coffee-shops h1, .banner-Cafes-and-Coffee-shops-Bars h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Cafes-and-Coffee-shops {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Nightlife/Clubs Banner */
+.banner-Nightlife-Clubs h1, .banner-Nightlife-Clubs h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Nightlife-Clubs {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Public Houses Banner */
+.banner-Public-Houses h1, .banner-Public-Houses h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Public-Houses {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Restaurants Banner */
+.banner-Restaurants h1, .banner-Restaurants h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Restaurants {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Where to Stay Banner */
+.banner-Where-to-Stay h1, .banner-Where-to-Stay h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Where-to-Stay {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Site Map Banner */
+.banner-Site-Map h1, .banner-Site-Map h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Site-Map {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact Us Banner */
+.banner-Contact-Us h1, .banner-Contact-Us h3, {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-Contact-Us {
+  color: white;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Watford_banner_Cassiobury_Park.jpg/2560px-Watford_banner_Cassiobury_Park.jpg') top left/cover no-repeat;
   height: 300px;
   display: flex;
   justify-content: center;
